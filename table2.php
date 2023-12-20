@@ -5,7 +5,7 @@ include_once "header.php";
 <div id="page-content-wrapper">
     <!-- Page content-->
     <div class="container-fluid">
-        <h1 class="mt-4">Controlli Individuali</h1>
+        <h1 class="mt-4">Controlli Aggregati</h1>
     </div>
 
     <div class="container-fluid">
@@ -22,6 +22,7 @@ include_once "header.php";
                 </tr>
             </thead>
             <tbody>
+                   
                 <tr>
                     <th scope="row">   </th>
                     <td>   </td>
