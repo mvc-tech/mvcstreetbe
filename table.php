@@ -15,7 +15,7 @@ include_once "header.php";
                     <th scope="col">#</th>
                     <th scope="col">Zona</th>
                     <th scope="col">Orario</th>
-                    <th scope="col"></th>
+                    <th scope="col">A</th>
                     <th scope="col">B</th>
                     <th scope="col">C</th>
                     <th scope="col">D</th>
