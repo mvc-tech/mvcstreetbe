@@ -1,6 +1,8 @@
 <?php 
 include_once "header.php";
 include_once "func/fetchdata.php";
+
+$giovanni
 ?>
 
 <div id="page-content-wrapper">
