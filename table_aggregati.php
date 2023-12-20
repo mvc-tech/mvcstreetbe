@@ -26,12 +26,12 @@ include_once "func/fetchdata.php";
                 
                     <?php foreach(fetchControlliAggregati($conn) as $controllo) :?>
                         <tr>
-                        <td><?=$controllo['id']?></td>
-                        <td><?=$controllo['fascia']?></td>
-                        <td><?=$controllo['controlli']?></td>
-                        <td><?=$controllo['eccezioni']?></td>
-                        <td><?=$controllo['id_macchina']?></td>
-                        <td><?=$controllo['zona']?></td>
+                            <td><?=$controllo['id']?></td>
+                            <td><?=$controllo['fascia']?></td>
+                            <td><?=$controllo['controlli']?></td>
+                            <td><?=$controllo['eccezioni']?></td>
+                            <td><?=$controllo['id_macchina']?></td>
+                            <td><?=$controllo['zona']?></td>
                         </tr>
 
                     <?php endforeach; ?>

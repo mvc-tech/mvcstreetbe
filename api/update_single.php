@@ -6,8 +6,7 @@ if(!isset($_POST['u'])) {
 } else {
     $token = $_POST['u'];
     $data = $_POST['data'];
-
-    $array = explode(',', $data);
+    $array = json_decode($data);
 
     $sql = "INSERT INTO controllo_singolo(id_macchina, zona, eccezione) values (?,?,?)";
     $stmt = $conn->prepare($sql);

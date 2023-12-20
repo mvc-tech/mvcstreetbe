@@ -25,11 +25,11 @@ include_once "func/fetchdata.php";
                 
                     <?php foreach(fetchControlliSingoli($conn) as $controllo) :?>
                         <tr>
-                        <td><?=$controllo['id']?></td>
-                        <td><?=$controllo['dataora']?></td>
-                        <td><?=$controllo['id_macchina']?></td>
-                        <td><?=$controllo['zona']?></td>
-                        <td><?=$controllo['eccezione']?></td>
+                            <td><?=$controllo['id']?></td>
+                            <td><?=$controllo['dataora']?></td>
+                            <td><?=$controllo['id_macchina']?></td>
+                            <td><?=$controllo['zona']?></td>
+                            <td><?=$controllo['eccezione']?></td>
                         </tr>
 
                     <?php endforeach; ?>
