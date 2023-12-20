@@ -16,9 +16,7 @@ function fetchControlliSingoli($conn) {
     }
 
     while($row = mysqli_fetch_assoc($result)) {
-        foreach ($row as $key => $value) {
-            array_push($items, $value);
-        }
+        array_push($items, $row);
     }
 
     return $items;
