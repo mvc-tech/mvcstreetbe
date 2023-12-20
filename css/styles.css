@@ -10866,4 +10866,13 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
 
 
 
+/* INCLUDES RICCARDO */
 
+.tabella-wrapper {
+  max-width:900px;
+  float: left;
+}
+
+.spacer-height{
+  height: 50px;
+}
