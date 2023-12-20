@@ -1,6 +1,9 @@
 <?php
 include_once "header.php";
+include_once "func/fetchdata.php";
 ?>
+
+
 
     
             <!-- Page content wrapper-->
@@ -8,6 +11,10 @@ include_once "header.php";
                 <!-- Page content-->
                 <div class="container-fluid">
                     <h1 class="mt-4">Backend Panel</h1>
+
+                    <?php var_dump(fetchControlliSingoli($conn))?>
+
+
                 </div>
             </div>
         </div>
