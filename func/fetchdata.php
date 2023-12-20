@@ -9,6 +9,8 @@ function fetchControlliSingoli($conn) {
 
     if($result = $conn -> query ("SELECT * FROM controllo_singolo")) {
         echo "returned rows: " . $result -> num_rows;
-        $result ->free_result();
+        $result -> free_result();
     }
+
+    return $items = $result -> fetch_assoc();
 }
