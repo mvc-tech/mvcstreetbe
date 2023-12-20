@@ -22,7 +22,6 @@ include_once "header.php";
                 </tr>
             </thead>
             <tbody>
-                   
                 <tr>
                     <th scope="row">   </th>
                     <td>   </td>
@@ -32,7 +31,6 @@ include_once "header.php";
                     <td>   </td>
                     <td>   </td>
                 </tr>
-
             </tbody>
         </table>
     </div>

@@ -10,7 +10,7 @@ include_once "header.php";
 
     <div class="container-fluid">
         <table class="table">
-            <thead>
+            <thead class='thead-dark'>
                 <tr>
                     <th scope="col">#</th>
                     <th scope="col">First</th>
