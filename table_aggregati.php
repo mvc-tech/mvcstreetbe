@@ -10,7 +10,7 @@ include_once "func/fetchdata.php";
     </div>
 
     <div class="container-fluid">
-        <table class="table">
+        <table class="table table-striped">
             <thead>
                 <tr>
                     <th scope="col">ID</th>

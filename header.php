@@ -22,7 +22,7 @@ include_once "res/conn.php";
                 <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                     <div class="container-fluid">
                         <div class="spacer-height"></div>
-                        <div class="navbar-brand"><img src="assets/logo.png" style="position:relative; right:30px!important;"/></div>
+                        <div class="navbar-brand"><img src="assets/logo.png" style="position:relative; right:0.5vw!important;"/></div>
                     </div>
                 </nav>
         <div class="d-flex" id="wrapper">
@@ -39,4 +39,4 @@ include_once "res/conn.php";
                 </div>
             </div>
 
-            <?= ?>
+           

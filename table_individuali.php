@@ -9,7 +9,7 @@ include_once "func/fetchdata.php";
         <h1 class="mt-4">Analisi Individuali</h1>
     </div>
 
-    <div class="container-fluid tabella-wrapper">
+    <div class="container-fluid">
         <table class="table table-striped">
             <thead>
                 <tr>
