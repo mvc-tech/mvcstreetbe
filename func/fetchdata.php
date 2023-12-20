@@ -23,7 +23,7 @@ function fetchControlliSingoli($conn) {
         echo "Failed to connect to MySQL: " . $$conn -> connect_error;
     }
 
-    if($result = $conn -> query ("SELECT * FROM controllo_singolo")) {
+    if($result = $conn -> query ("SELECT * FROM controlli_aggregati")) {
         $items = $result -> fetch_assoc();
     }
 
