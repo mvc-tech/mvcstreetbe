@@ -43,7 +43,7 @@ include_once "res/conn.php";
                 <div class="sidebar-heading border-bottom bg-light"><?=$SITE_TITLE?></div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Tablet View</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table.php">Analisi Aggregate</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table2.php">Analisi Individuali</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table2.php">Analisi Aggregate</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table.php">Analisi Individuali</a>
                 </div>
             </div>

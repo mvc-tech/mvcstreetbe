@@ -1,5 +1,6 @@
 <?php 
 include_once "header.php";
+include_once "func/fetchdata.php";
 ?>
 
 <div id="page-content-wrapper">
@@ -12,26 +13,26 @@ include_once "header.php";
         <table class="table">
             <thead>
                 <tr>
-                    <th scope="col">#</th>
-                    <th scope="col">First</th>
-                    <th scope="col">Last</th>
-                    <th scope="col">Handle</th>
-                    <th scope="col">B</th>
-                    <th scope="col">C</th>
-                    <th scope="col">D</th>
+                    <th scope="col">ID</th>
+                    <th scope="col">Data e Ora</th>
+                    <th scope="col">ID Macchina</th>
+                    <th scope="col">Zona</th>
+                    <th scope="col">Risultato</th>
                 </tr>
             </thead>
             <tbody>
                    
-                <tr>
-                    <th scope="row">   </th>
-                    <td>   </td>
-                    <td>   </td>
-                    <td>   </td>
-                    <td>   </td>
-                    <td>   </td>
-                    <td>   </td>
-                </tr>
+                
+                    <?php foreach(fetchControlliSingoli($conn) as $controllo) :?>
+                        <tr>
+                        <td><?=$controllo['id']?></td>
+                        <td><?=$controllo['dataora']?></td>
+                        <td><?=$controllo['id_macchina']?></td>
+                        <td><?=$controllo['zona']?></td>
+                        <td><?=$controllo['eccezione']?></td>
+                        </tr>
+
+                    <?php endforeach; ?>
 
             </tbody>
         </table>
