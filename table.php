@@ -5,7 +5,7 @@ include_once "header.php";
 <div id="page-content-wrapper">
     <!-- Page content-->
     <div class="container-fluid">
-        <h1 class="mt-4">Table</h1>
+        <h1 class="mt-4">Controlli Individuali</h1>
     </div>
 
     <div class="container-fluid">

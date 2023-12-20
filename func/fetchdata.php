@@ -17,7 +17,7 @@ function fetchControlliSingoli($conn) {
 }
 
 // @arary -> fetch_assoc() tabella mvcstreet.controlli_aggregati
-function fetchControlliSingoli($conn) {
+function fetchControlliAggregati($conn) {
 
     if($conn -> connect_errno) {
         echo "Failed to connect to MySQL: " . $$conn -> connect_error;
