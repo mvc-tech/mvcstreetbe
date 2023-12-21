@@ -16,6 +16,10 @@ include_once "res/conn.php";
         <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <!-- Core theme CSS (includes FontAwesome)-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <!-- File CSS Personalizzato -->
+        <link href="css/custom.css" rel="stylesheet" />
     </head>
     <body>
                 <!-- Top navigation-->
@@ -34,7 +38,8 @@ include_once "res/conn.php";
                 </div>
                 <div class="list-group list-group-flush">
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="tablet.php">Tablet View</a>
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table_aggregati.php">Analisi Aggregate</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table_aggregati.php">Tabella Analisi Aggregate</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="chart_aggregati.php">Chart Analisi Aggregate</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table_individuali.php">Analisi Individuali</a>
                 </div>
             </div>

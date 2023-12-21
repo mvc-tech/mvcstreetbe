@@ -24,7 +24,7 @@ function fetchControlliSingoli($conn) {
 
 // @arary -> fetch_assoc() tabella mvcstreet.controlli_aggregati
 function fetchControlliAggregati($conn) {
-    $query = "SELECT * FROM controlli_aggregati";
+    $query = "SELECT * FROM controlli_aggregati LIMIT 20";
 
     $result = $conn -> query($query);
 
