@@ -1,7 +1,7 @@
 <?php
-$servername = "100.99.88.100";
-$username = "admin";
-$password = "mvc123";
+$servername = "localhost";
+$username = "root";
+$password = "";
 $dbname = "mvcstreet";
 
 // Create connection
