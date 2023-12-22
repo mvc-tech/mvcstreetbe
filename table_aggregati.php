@@ -1,7 +1,12 @@
 <?php 
 include_once "header.php";
 include_once "func/fetchdata.php";
-include_once('func/fetchchart.php');
+include_once 'func/fetchchart.php';
+include_once "res/query.php";
+
+if(!getUsername($_POST['username'])){
+    header('Location: http://customers.mvc-technology.com/404.php');
+}
 ?>
 
 <div id="page-content-wrapper">

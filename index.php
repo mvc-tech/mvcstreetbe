@@ -1,6 +1,11 @@
 <?php
 include_once "header.php";
 include_once "func/fetchdata.php";
+include_once "res/query.php";
+
+if(!getUsername($_POST['username'])){
+    header('Location: http://customers.mvc-technology.com/404.php');
+}
 ?>
 
 
@@ -11,8 +16,12 @@ include_once "func/fetchdata.php";
                 <!-- Page content-->
                 <div class="container-fluid">
                     <h1 class="mt-4">Frontend Panel</h1>
+                    <div class="row-container">
+                        
 
-                    <iframe class="ilframe" src="http://127.0.0.1/mvcstreetfe/" title="W3Schools Free Online Web Tutorials"></iframe>
+                    <iframe class="ilframe" src="http://127.0.0.1/mvcstreetfe/" title="Street Control"></iframe>
+                    
+                    </div>
 
 
                 </div>

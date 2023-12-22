@@ -1,6 +1,12 @@
 <?php
+session_start();
 include_once "includes/globals.php";
 include_once "res/conn.php";
+include_once "res/query.php";
+
+if(!getUsername($_POST['username'])){
+    header('Location: http://customers.mvc-technology.com/404.php');
+}
 
 ?>
 
