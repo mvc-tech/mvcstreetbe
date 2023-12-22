@@ -46,7 +46,29 @@ $giovanni
 </div>
 
 <script>
+    $(document).ready(function() {
+        // Funzione per aggiornare la tabella
 
-    
 
+        function updateTable() {
+            tr = document.getElementsByClassName('tr');
+
+            num= tr.length;
+
+            $.ajax({
+                url: 'a.php', 
+                type: 'POST',
+                success: function(data) {
+                    if(data == num)
+                    {
+                        console.log('nulla')
+                    }else if(data > num){
+                        location.reload();
+                    }
+                }
+            });
+        }
+        // Aggiorna la tabella ogni 5 secondi (modificabile a seconda delle esigenze)
+        setInterval(updateTable, 5000);
+    });
 </script>
