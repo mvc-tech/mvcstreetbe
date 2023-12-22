@@ -10881,3 +10881,8 @@ body.sb-sidenav-toggled #wrapper #sidebar-wrapper {
   padding: 0;
   margin-top:20px;
 }
+
+.ilframe {
+  min-width:768px;
+  min-height:768px;
+}

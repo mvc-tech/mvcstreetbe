@@ -4,7 +4,7 @@ include_once "res/conn.php";
 
 // @arary -> fetch_assoc() tabella mvcstreet.controllo_singolo
 function fetchControlliSingoli($conn) {
-    $query = "SELECT * FROM controllo_singolo";
+    $query = "SELECT * FROM rilevamenti WHERE controllato=1";
 
     $result = $conn -> query($query);
 

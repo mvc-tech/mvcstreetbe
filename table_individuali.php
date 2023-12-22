@@ -17,18 +17,20 @@ $giovanni
                 <thead>
                     <tr>
                         <th scope="col">ID</th>
-                        <th scope="col">Data e Ora</th>
+                        <th scope="col">Targa</th>
+                        <th scope="col">Data</th>
                         <th scope="col">ID Macchina</th>
                         <th scope="col">Zona</th>
-                        <th scope="col">Risultato</th>
+                        <th scope="col">Eccezione</th>
                     </tr>
                 </thead>
                 <tbody>
                     
                     
                         <?php foreach(fetchControlliSingoli($conn) as $controllo) :?>
-                            <tr>
+                            <tr class="tr">
                                 <td><?=$controllo['id']?></td>
+                                <td><?=$controllo['targa']?></td>
                                 <td><?=$controllo['dataora']?></td>
                                 <td><?=$controllo['id_macchina']?></td>
                                 <td><?=$controllo['zona']?></td>
@@ -42,3 +44,9 @@ $giovanni
         </div>
     </div>
 </div>
+
+<script>
+
+    
+
+</script>

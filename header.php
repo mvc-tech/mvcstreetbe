@@ -37,7 +37,7 @@ include_once "res/conn.php";
                     <img src="assets/mvcstreet.png" style="width:200px; padding:0;margin:0;"/>
                 </div>
                 <div class="list-group list-group-flush">
-                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="tablet.php">Tablet View</a>
+                    <a class="list-group-item list-group-item-action list-group-item-light p-3" href="index.php">Tablet View</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table_aggregati.php">Tabella Analisi Aggregate</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="chart_aggregati.php">Chart Analisi Aggregate</a>
                     <a class="list-group-item list-group-item-action list-group-item-light p-3" href="table_individuali.php">Analisi Individuali</a>

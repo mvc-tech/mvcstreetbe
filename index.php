@@ -10,9 +10,9 @@ include_once "func/fetchdata.php";
             <div id="page-content-wrapper">
                 <!-- Page content-->
                 <div class="container-fluid">
-                    <h1 class="mt-4">Backend Panel</h1>
+                    <h1 class="mt-4">Frontend Panel</h1>
 
-                    <?php var_dump(fetchControlliSingoli($conn))?>
+                    <iframe class="ilframe" src="http://127.0.0.1/mvcstreetfe/" title="W3Schools Free Online Web Tutorials"></iframe>
 
 
                 </div>
